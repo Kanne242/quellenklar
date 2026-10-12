@@ -1,0 +1,16 @@
+{
+  "name": "@quellenklar/db-tests",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Prüft Migrationen, stabile ID-Vergabe, Kontingente und Row-Level-Security gegen eine eingebettete Postgres-Instanz (PGlite).",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json",
+    "lint": "eslint test",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.5.9",
+    "@types/node": "22.20.5"
+  }
+}

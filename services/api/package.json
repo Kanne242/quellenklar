@@ -1,0 +1,26 @@
+{
+  "name": "@quellenklar/api",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Backend-API: Authentifizierung, KI-Prüfung (Claude, nur serverseitig), Dateiverarbeitung, DOCX-Export.",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "tsx src/server.ts",
+    "typecheck": "tsc -p tsconfig.json",
+    "lint": "eslint src test",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@hono/node-server": "2.1.4",
+    "@quellenklar/document-engine": "workspace:*",
+    "@quellenklar/shared": "workspace:*",
+    "@supabase/supabase-js": "2.117.3",
+    "hono": "4.13.13",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "tsx": "4.23.15"
+  }
+}

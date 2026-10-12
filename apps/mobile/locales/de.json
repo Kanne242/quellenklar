@@ -1,0 +1,8 @@
+{
+  "ios": {
+    "CFBundleDisplayName": "QuellenKlar"
+  },
+  "android": {
+    "app_name": "QuellenKlar"
+  }
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <g transform="translate(-14 -6)">
+  <!-- Dokumentseite mit Eselsohr -->
+  <path d="M250 170 H610 L730 290 V780 Q730 820 690 820 H290 Q250 820 250 780 Z" fill="#FFFFFF" stroke="#D5DCE4" stroke-width="8"/>
+  <path d="M610 170 V250 Q610 290 650 290 H730 Z" fill="#DCE3EA"/>
+  <!-- Textzeilen -->
+  <rect x="320" y="360" width="300" height="34" rx="17" fill="#C9D3DE"/>
+  <rect x="320" y="440" width="240" height="34" rx="17" fill="#C9D3DE"/>
+  <rect x="320" y="520" width="150" height="34" rx="17" fill="#C9D3DE"/>
+  <!-- Q mit Prüfhaken als Schweif -->
+  <circle cx="620" cy="650" r="178" fill="#F5F7FA"/>
+  <circle cx="620" cy="650" r="135" fill="none" stroke="#159E9C" stroke-width="62"/>
+  <path d="M548 650 L604 706 L708 598" fill="none" stroke="#102A43" stroke-width="52" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M712 742 L800 830" stroke="#159E9C" stroke-width="62" stroke-linecap="round"/>
+</g>
+</svg>
